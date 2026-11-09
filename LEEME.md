@@ -45,3 +45,12 @@ Es un prototipo de un componente dentro de una apariencia de home. Las pestañas
 - Tipografía: `Roboto`, cargada desde Google Fonts cuando hay conexión. El ZIP no incluye archivos tipográficos; sin conexión se aplica Arial como respaldo.
 - Se conservan los encabezados H1 → H2 → H3, sugerencias del buscador y diálogos demostrativos.
 - Para probar el zoom y la navegación con tecnologías de apoyo, abrir `index.html` y utilizar Tab, flechas, Enter, Escape y zoom 200%.
+
+
+## Cambios de la versión 4 — corrección de encabezados vacíos
+
+- Se corrigieron **dos encabezados H2 vacíos** detectados por el auditor de encabezados: `#detail-heading` y `#info-heading`.
+- Ambos diálogos tienen ahora un título predeterminado significativo en el HTML, aunque estén cerrados al cargar la página.
+- Cuando se abre un trámite o una sección informativa, JavaScript sigue reemplazando ese título predeterminado por el título específico correspondiente.
+- Se conservan el diseño visual de la V3, Roboto, el buscador, la navegación por teclado, los diálogos y la disposición compacta.
+- La comprobación se concentra en los encabezados vacíos. **No constituye certificación WCAG del sitio completo**.
